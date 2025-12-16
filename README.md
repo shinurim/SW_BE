@@ -1,3 +1,12 @@
+<h2>🎬DB Bridge</h2>
+<p>자연어 질의를 통한 고품질의 패널 추출</p>
+<p>
+  <a href="https://www.youtube.com/watch?v=EUqCmVk6t7E">
+    <img src="https://img.youtube.com/vi/EUqCmVk6t7E/0.jpg" width="720" alt="DB Bridge Demo Video Thumbnail">
+  </a>
+</p>
+<hr>
+
 <h2>Preview</h2>
 <p align="center">
   <img src="./판넬.png" width="900" />
@@ -5,7 +14,6 @@
 <hr>
 
 <h2>Members</h2>
-
 <table align="center" cellpadding="14">
   <tr>
     <td align="center">
