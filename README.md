@@ -1,7 +1,7 @@
 <h2>🎬DB Bridge</h2>
 자연어 질의를 통한 고품질의 패널 추출
 
-▶️ [GitHub에서 시연 영상 바로 보기](ISSUE_LINK)
+▶️ [GitHub에서 시연 영상 바로 보기]([ISSUE_LINK](https://github.com/shinurim/SW_BE/issues/1#issue-3734958059))
 <hr>
 
 <h2>Preview</h2>
