@@ -16,7 +16,7 @@
   <tr>
     <td align="center">
       <div style="width:140px;height:140px;border:2px solid #ddd;border-radius:12px;background:#fafafa;overflow:hidden;">
-        <img src="./members/yurim.png" alt="신유림" style="width:100%;height:100%;object-fit:cover;">
+        <img src="./members/yurim.png" width:120px height:120px alt="신유림" style="width:100%;height:100%;object-fit:cover;">
       </div>
       <div style="margin-top:8px;font-weight:600;">
         <a href="https://github.com/shinurim">신유림</a>
@@ -24,7 +24,7 @@
     </td>
     <td align="center">
       <div style="width:140px;height:140px;border:2px solid #ddd;border-radius:12px;background:#fafafa;overflow:hidden;">
-        <img src="./members/mint02123.png" alt="민재영" style="width:100%;height:100%;object-fit:cover;">
+        <img src="./members/mint02123.png" width:120px height:120px alt="민재영" style="width:100%;height:100%;object-fit:cover;">
       </div>
       <div style="margin-top:8px;font-weight:600;">
         <a href="https://github.com/mint02123">민재영</a>
@@ -32,7 +32,7 @@
     </td>
     <td align="center">
       <div style="width:140px;height:140px;border:2px solid #ddd;border-radius:12px;background:#fafafa;overflow:hidden;">
-        <img src="./members/jonghwa-8620.png" alt="박종화" style="width:100%;height:100%;object-fit:cover;">
+        <img src="./members/jonghwa-8620.png" width:120px height:120px alt="박종화" style="width:100%;height:100%;object-fit:cover;">
       </div>
       <div style="margin-top:8px;font-weight:600;">
         <a href="https://github.com/jonghwa-8620">박종화</a>
@@ -40,7 +40,7 @@
     </td>
     <td align="center">
       <div style="width:140px;height:140px;border:2px solid #ddd;border-radius:12px;background:#fafafa;overflow:hidden;">
-        <img src="./members/suheon98.png" alt="조수헌" style="width:100%;height:100%;object-fit:cover;">
+        <img src="./members/suheon98.png" width:120px height:120px alt="조수헌" style="width:100%;height:100%;object-fit:cover;">
       </div>
       <div style="margin-top:8px;font-weight:600;">
         <a href="https://github.com/suheon98">조수헌</a>
@@ -48,7 +48,7 @@
     </td>
     <td align="center">
       <div style="width:140px;height:140px;border:2px solid #ddd;border-radius:12px;background:#fafafa;overflow:hidden;">
-        <img src="./members/rokiosm.png" alt="문경록" style="width:100%;height:100%;object-fit:cover;">
+        <img src="./members/rokiosm.png" width:120px height:120px alt="문경록" style="width:100%;height:100%;object-fit:cover;">
       </div>
       <div style="margin-top:8px;font-weight:600;">
         <a href="https://github.com/rokiosm">문경록</a>
