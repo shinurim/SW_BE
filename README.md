@@ -15,7 +15,6 @@
 
 <table align="center" cellpadding="14">
   <tr>
-
     <td align="center">
       <img src="./members/yurim.png"
            width="140" height="140"
@@ -24,7 +23,6 @@
         <a href="https://github.com/shinurim">신유림</a>
       </div>
     </td>
-
     <td align="center">
       <img src="./members/mint02123.png"
            width="140" height="140"
@@ -33,7 +31,6 @@
         <a href="https://github.com/mint02123">민재영</a>
       </div>
     </td>
-
     <td align="center">
       <img src="./members/jonghwa-8620.png"
            width="140" height="140"
@@ -42,7 +39,6 @@
         <a href="https://github.com/jonghwa-8620">박종화</a>
       </div>
     </td>
-
     <td align="center">
       <img src="./members/suheon98.png"
            width="140" height="140"
@@ -51,7 +47,6 @@
         <a href="https://github.com/suheon98">조수헌</a>
       </div>
     </td>
-
     <td align="center">
       <img src="./members/rokiosm.png"
            width="140" height="140"
@@ -60,6 +55,5 @@
         <a href="https://github.com/rokiosm">문경록</a>
       </div>
     </td>
-
   </tr>
 </table>
