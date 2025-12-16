@@ -1,7 +1,6 @@
 <h2>🎬DB Bridge</h2>
 자연어 질의를 통한 고품질의 패널 추출
-
-![DB_Bridge.mp4](./assets/DB_Bridge.mp4)
+▶️ [GitHub에서 시연 영상 바로 보기](ISSUE_LINK)
 <hr>
 
 <h2>Preview</h2>
