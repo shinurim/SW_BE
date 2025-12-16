@@ -1,10 +1,7 @@
 <h2>🎬DB Bridge</h2>
-<p>자연어 질의를 통한 고품질의 패널 추출</p>
-<p>
-  <a href="https://www.youtube.com/watch?v=EUqCmVk6t7E">
-    <img src="https://img.youtube.com/vi/EUqCmVk6t7E/0.jpg" width="720" alt="DB Bridge Demo Video Thumbnail">
-  </a>
-</p>
+자연어 질의를 통한 고품질의 패널 추출
+
+▶️ [GitHub에서 시연 영상 바로 보기](ISSUE_LINK)
 <hr>
 
 <h2>Preview</h2>
