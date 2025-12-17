@@ -149,30 +149,31 @@ LOG_LEVEL=INFO
 <h2>🧩Project Structure</h2>
 <pre><code>
 DJANGO_PROJ
-├── apis
-│   ├── models.py
-│   ├── urls.py
-│   └── views_save.py
+├── apis/                         # 공통 API (유저/마이페이지 등)
+│   ├── models.py                 # 사용자 관련 DB 모델
+│   ├── urls.py                   # apis 라우팅
+│   └── views_save.py             # 사용자 데이터 저장/조회 API 로직
 │
-├── insight
-│   ├── db_routers.py
-│   ├── models.py
-│   ├── urls.py
-│   └── views_insight.py
+├── insight/                      # Insight 생성
+│   ├── db_routers.py             # DB 라우팅
+│   ├── models.py                 # VecDB 모델 (RAG용)
+│   ├── urls.py                   # insight 라우팅
+│   └── views_insight.py          # Stage3 결과 기반 인사이트 생성
 │
-├── panel
-│   ├── urls.py
-│   ├── views_api.py
-│   ├── views_checkbox.py
-│   └── views_panel.py
+├── panel/                        # Panel 추출 파이프라인 (Stage1~3)
+│   ├── models.py                 # 패널 메타/응답 RDB + 설문 응답 VecDB 모델(민감 데이터로 인한 제거)
+│   ├── urls.py                   # panel 라우팅
+│   ├── views_api.py              # Stage1: 자연어 → SQL / opinion / main / sub 변환
+│   ├── views_panel.py            # Stage2/3: SQL DirectFilter + Vec 유사도 기반 추출
+│   └── views_checkbox.py         # 체크박스 기반 DirectFilter 
 │
-├── swproject_backend
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+├── swproject_backend/            # 프로젝트 설정 (Django core)
+│   ├── settings.py               # 환경설정
+│   ├── urls.py                   # 프로젝트 루트 라우팅
+│   └── wsgi.py                   # WSGI 엔트리포인트
 │
-├── manage.py
-└── requirements.txt
+├── manage.py                     # Django 관리 커맨드 엔트리
+└── requirements.txt              # Python 패키지 의존성 목록
 </code></pre>
 
 <hr>
