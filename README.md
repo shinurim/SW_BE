@@ -232,46 +232,45 @@ DJANGO_PROJ
   <li>
     <strong>Stage1 변환 (NL → SQL/Opinion/Main/Sub)</strong>:<br>
     자연어 질의를 <code>sql</code>, <code>opinion</code>, <code>main</code>, <code>sub</code>로 변환하고,
-    <code>opinion</code>이 <code>null</code>이면 <strong>Direct Filtering</strong> 방식으로 패널을 추출합니다.
+    <code>opinion</code>이 <code>null</code>이면 Direct Filtering 방식으로 패널을 추출합니다.
   </li>
 
   <li>
     <strong>Opinion 기반 고정밀 패널 추출</strong>:<br>
     <code>opinion</code>이 존재하면 <code>sql</code>로 1차 후보군을 필터링한 뒤,
     <code>main/sub</code> 카테고리에 해당하는 응답을 가진 후보 중에서<br>
-    <strong>opinion 유사도가 평균 이상인 후보군</strong>을 교집합하여 최종 적합 패널을 추출합니다.
+    opinion 유사도가 평균 이상인 후보군을 교집합하여 최종 적합 패널을 추출합니다.
   </li>
   <li>
     <strong>Checkbox 기반 Direct Filtering</strong>:<br>
-    체크박스 필터 또한 <strong>Direct Filtering</strong> 방식을 채택하여
-    <strong>5초 내</strong> 적합한 패널을 빠르게 추출합니다.
+    체크박스 필터 또한 Direct Filtering 방식을 채택하여
+    5초 내 적합한 패널을 빠르게 추출합니다.
   </li>
 
   <li>
     <strong>Loyalty 기반 우선순위 제공 (Direct Filtering 전용)</strong>:<br>
     <code>sql</code>만으로 패널을 추출하는 경우 <code>loyalty</code> 값을 부여해
-    <strong>충성도가 높은 고품질 패널을 우선 제공</strong>합니다.
-    <span style="color:#666;">(Direct Filtering 방식에서만 적용)</span>
+    충성도가 높은 고품질 패널을 우선 제공합니다.(Direct Filtering 방식에서만 적용)
   </li>
   
   <li>
     <strong>인사이트 생성1</strong>:<br>
     주관이 포함된 자연어 질의의 경우 적합 그룹의 설문 응답을 바탕으로
-    <strong>적절한 인사이트를 생성</strong>합니다.
+    적절한 인사이트를 생성합니다.
   </li>
 
   <li>
     <strong>인사이트 생성2</strong>:<br>
-    적합 그룹의 설문 특징과 전체 그룹의 설문 특징을 <strong>비교 분석</strong>하여
+    적합 그룹의 설문 특징과 전체 그룹의 설문 특징을 비교 분석하여
     차별화된 인사이트를 제공합니다.
   </li>
 
   <li>
     <strong>질의 추천 (3개)</strong>:<br>
     <ul>
-      <li><strong>유사 질의 2개</strong> 추천</li>
+      <li><strong>유사 질의 2개 추천</strong></li>
       <li>
-        <strong>비유사(반대 선상) 질의 1개</strong> 추천
+        비유사(반대 선상) 질의 1개 추천
         <span style="color:#666;">(예: 좋아하는 ↔ 싫어하는)</span> —
         적합 그룹의 특징을 더 명확히 파악할 수 있도록 지원합니다.
       </li>
@@ -280,7 +279,7 @@ DJANGO_PROJ
 
   <li>
     <strong>세그먼트 저장</strong>:<br>
-    생성된 인사이트를 <strong>세그먼트 형태로 저장</strong>하여 추후 재활용할 수 있습니다.
+    생성된 인사이트를 세그먼트 형태로 저장하여 추후 재활용할 수 있습니다.
   </li>
 </ul>
 
