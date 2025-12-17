@@ -227,7 +227,7 @@ DJANGO_PROJ
 </ul>
 <hr>
 
-<h2>📊Key Features</h2>
+<h2>🔑Key Features</h2>
 <ul>
   <li>
     <strong>Stage1 변환 (NL → SQL/Opinion/Main/Sub)</strong>:<br>
