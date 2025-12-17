@@ -114,16 +114,13 @@
 cd 2025_8_B_BE
 </code></pre>
 <h4>가상환경 설정 (bash)</h4>
-<pre><code>
-# 가상환경 생성
+<pre><code># 가상환경 생성
 python -m venv venv
 </code></pre>
-<pre><code>
-# 가상환경 활성화
+<pre><code># 가상환경 활성화
 source venv/Scripts/activate
 </code></pre>
-<pre><code>
-# 라이브러리 설치
+<pre><code># 라이브러리 설치
 pip install -r requirements.txt
 </code></pre>
 
@@ -131,24 +128,21 @@ pip install -r requirements.txt
 <h3>Environment Variables</h3>
 <p><code>.env</code> 파일을 생성하고 다음 변수를 설정하세요:</p>
 <pre><code>
+  
 # Django
 SECRET_KEY=your_django_secret_key
 DEBUG=True
-</code></pre>
-<pre><code>
+  
 # LLM API KEY
 ANTHROPIC_API_KEY=your_claude_api_key
 OPENAI_API_KEY=your_openai_api_key
-</code></pre> 
-<pre><code>
+
 # Database (RDB)
 DB_DEFAULT_PASSWORD=your_db_password
-</code></pre>
-<pre><code>
+
 # Database (Vector DB - pgvector)
 DB_VEC_PASSWORD=your_vecdb_password
-</code></pre>
-<pre><code>
+
 # Logging
 LOG_LEVEL=INFO
 </code></pre>
