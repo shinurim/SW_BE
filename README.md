@@ -148,47 +148,25 @@ LOG_LEVEL=INFO
 <hr>
 <h2>🧩Project Structure</h2>
 <pre><code>
-  DJANGO_PROJ
+DJANGO_PROJ
 ├── apis
-│   ├── __pycache__/
-│   ├── management/
-│   ├── migrations/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
 │   ├── models.py
-│   ├── tests.py
 │   ├── urls.py
 │   └── views_save.py
 │
 ├── insight
-│   ├── __pycache__/
-│   ├── management/
-│   ├── migrations/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
 │   ├── db_routers.py
 │   ├── models.py
-│   ├── tests.py
 │   ├── urls.py
 │   └── views_insight.py
 │
 ├── panel
-│   ├── __pycache__/
-│   ├── management/
-│   ├── migrations/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
 │   ├── urls.py
 │   ├── views_api.py
 │   ├── views_checkbox.py
 │   └── views_panel.py
 │
 ├── swproject_backend
-│   ├── __pycache__/
-│   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
