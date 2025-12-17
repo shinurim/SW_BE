@@ -123,7 +123,6 @@ source venv/Scripts/activate
 <pre><code># 라이브러리 설치
 pip install -r requirements.txt
 </code></pre>
-<hr>
 
 <h3>Environment Variables</h3>
 <p><code>.env</code> 파일을 생성하고 다음 변수를 설정하세요:</p>
@@ -144,4 +143,56 @@ DB_VEC_PASSWORD=your_vecdb_password
 
 # Logging
 LOG_LEVEL=INFO
+</code></pre>
+
+<hr>
+<h2>🧩Project Structure</h2>
+<pre><code>
+  DJANGO_PROJ
+├── apis
+│   ├── __pycache__/
+│   ├── management/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views_save.py
+│
+├── insight
+│   ├── __pycache__/
+│   ├── management/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── db_routers.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views_insight.py
+│
+├── panel
+│   ├── __pycache__/
+│   ├── management/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── urls.py
+│   ├── views_api.py
+│   ├── views_checkbox.py
+│   └── views_panel.py
+│
+├── swproject_backend
+│   ├── __pycache__/
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── manage.py
+└── requirements.txt
 </code></pre>
