@@ -196,3 +196,17 @@ LOG_LEVEL=INFO
 ├── manage.py
 └── requirements.txt
 </code></pre>
+
+<hr>
+<h2>API Endpoints</h2>
+
+<hr>
+<h2>LLM Models</h2>
+<ul>
+  <li>claude-haiku-4-5 : 사용자 자연어 질의 판별</li>
+  <li>gpt-4o : 인사이트 생성</li>
+</ul>
+
+<hr>
+<h2>License</h2>
+<p>본 프로젝트는 한성대학교 기업연계 SW캡스톤디자인 수업에서 진행되었습니다.</p>
