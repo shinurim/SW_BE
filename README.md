@@ -222,8 +222,8 @@ DJANGO_PROJ
 
 <h3>Search API (<code>/api/v1/search</code>)</h3>
 <ul>
-  <li><code>POST /api/v1/search/text</code> - 심플/복잡 질의 결과 반환 (자연어 기반)</li>
-  <li><code>POST /api/v1/search/sql</code> - 심플/복잡 질의 결과 반환 (SQL 기반)</li>
+  <li><code>POST /api/v1/search/text</code> - 심플/복잡 질의 결과 반환</li>
+  <li><code>POST /api/v1/search/sql</code> - 심플/복잡 질의 결과 반환</li>
 </ul>
 <hr>
 
