@@ -110,8 +110,8 @@
 
 <h2>🚀Getting Started</h2>
 <h3>Installation</h3>
-<pre><code>git clone https://github.com/hansung-sw-capstone-2025-2/2025_8_B_BE.git
-cd 2025_8_B_BE
+<pre><code>git clone https://github.com/shinurim/SW_BE.git
+cd SW_BE
 </code></pre>
 <h4>가상환경 설정 (bash)</h4>
 <pre><code># 가상환경 생성
