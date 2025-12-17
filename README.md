@@ -4,7 +4,7 @@
 ▶️ [GitHub에서 시연 영상 바로 재생하기](https://github.com/shinurim/SW_BE/issues/1#issue-3734958059)
 <hr>
 
-<h2>👀Preview</h2>
+<h2>Preview</h2>
 <p align="center">
   <img src="./assets/판넬.png" width="900" />
 </p>
@@ -176,8 +176,58 @@ DJANGO_PROJ
 </code></pre>
 
 <hr>
-<h2>API Endpoints</h2>
+<h2>📌API Endpoints</h2>
+<h3>Auth API (<code>/api/v1/auth</code>)</h3>
+<ul>
+  <li><code>POST /api/v1/auth/login</code> - 로그인</li>
+  <li><code>POST /api/v1/auth/signup</code> - 회원가입</li>
+</ul>
 
+<h3>MyPage API (<code>/api/v1/mypage</code>)</h3>
+<ul>
+  <li><code>GET /api/v1/mypage</code> - 마이페이지 조회</li>
+  <li><code>PATCH /api/v1/mypage/password</code> - 프로필 비밀번호 변경</li>
+</ul>
+
+<h3>User API (<code>/api/v1/user</code>)</h3>
+<ul>
+  <li><code>PATCH /api/v1/user/profile</code> - 프로필 변경</li>
+</ul>
+
+<h3>Segments API (<code>/api/v1/segments</code>)</h3>
+<ul>
+  <li><code>GET /api/v1/segments</code> - 저장된 세그먼트 리스트</li>
+  <li><code>DELETE /api/v1/segments/delete</code> - 세그먼트 삭제</li>
+</ul>
+
+<h3>Save API (<code>/api/v1/save</code>)</h3>
+<ul>
+  <li><code>POST /api/v1/save/save_segment</code> - 세그먼트 저장</li>
+</ul>
+
+<h3>Insights API (<code>/api/v1/insights</code>)</h3>
+<ul>
+  <li><code>GET /api/v1/insights/&lt;int:segment_id&gt;</code> - 저장된 세그먼트 인사이트 조회</li>
+</ul>
+
+<h3>Panel API (<code>/api/v1/panels</code>)</h3>
+<ul>
+  <li><code>POST /api/v1/panels/search</code> - 체크박스(DirectFilter) 기반 패널 검색</li>
+</ul>
+
+<h3>Insight Generation API (<code>/api/v1/insight</code>)</h3>
+<ul>
+  <li><code>POST /api/v1/insight/from-text</code> - 인사이트 생성</li>
+</ul>
+
+<h3>Search API (<code>/api/v1/search</code>)</h3>
+<ul>
+  <li><code>POST /api/v1/search/text</code> - 심플/복잡 질의 결과 반환 (자연어 기반)</li>
+  <li><code>POST /api/v1/search/sql</code> - 심플/복잡 질의 결과 반환 (SQL 기반)</li>
+</ul>
+<hr>
+
+<h2>📊Key Features</h2>
 <hr>
 <h2>LLM Models</h2>
 <ul>
