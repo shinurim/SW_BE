@@ -2,7 +2,6 @@
 자연어 질의를 통한 고품질의 패널 추출
 
 ▶️ [GitHub에서 시연 영상 바로 재생하기](https://github.com/shinurim/SW_BE/issues/1#issue-3734958059)
-
 <hr>
 
 <h2>👀Preview</h2>
@@ -12,7 +11,6 @@
 <hr>
 
 <h2>👥 Members</h2>
-
 <table align="center" cellpadding="14">
   <tr>
     <td align="center">
@@ -57,3 +55,56 @@
     </td>
   </tr>
 </table>
+<hr>
+
+<h2>🧰 Tech Stack</h2>
+<ul>
+  <li>
+    <strong>Backend</strong>
+    <ul>
+      <li>Python</li>
+      <li>Django 4.2.27</li>
+      <li>Django REST Framework 3.16.1</li>
+      <li>django-cors-headers 4.9.0</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Database</strong>
+    <ul>
+      <li>PostgreSQL</li>
+      <li>pgvector (Vector similarity search)</li>
+      <li>psycopg2-binary (PostgreSQL adapter)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>LLM / RAG</strong>
+    <ul>
+      <li>LangChain (langchain · langchain-core · langchain-community)</li>
+      <li>OpenAI API (openai · langchain-openai)</li>
+      <li>Anthropic Claude API (anthropic · langchain-anthropic)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Embeddings / NLP</strong>
+    <ul>
+      <li>Sentence-Transformers</li>
+      <li>PyTorch</li>
+      <li>Tokenizers</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Data / Utilities</strong>
+    <ul>
+      <li>NumPy</li>
+      <li>requests</li>
+      <li>python-dotenv</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Infrastructure</strong>
+    <ul>
+      <li>Docker (컨테이너)</li>
+    </ul>
+  </li>
+</ul>
+
