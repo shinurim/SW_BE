@@ -57,7 +57,7 @@
 </table>
 <hr>
 
-<h2>🧰 Tech Stack</h2>
+<h2>🛠 Tech Stack</h2>
 <ul>
   <li>
     <strong>Backend</strong>
@@ -108,3 +108,39 @@
   </li>
 </ul>
 
+<h2>🚀Getting Started</h2>
+<h3>Installation</h3>
+<pre><code>git clone https://github.com/hansung-sw-capstone-2025-2/2025_8_B_BE.git
+cd 2025_8_B_BE
+</code></pre>
+<h4>가상환경 설정 (bash)</h4>
+<pre><code># 가상환경 생성
+python -m venv venv
+
+# 가상환경 활성화
+source venv/Scripts/activate
+
+# 라이브러리 설치
+pip install -r requirements.txt
+</code></pre>
+
+<hr>
+<h3>Environment Variables</h3>
+<p><code>.env</code> 파일을 생성하고 다음 변수를 설정하세요:</p>
+<pre><code># Django
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+
+# LLM API KEY
+ANTHROPIC_API_KEY=your_claude_api_key
+OPENAI_API_KEY=your_openai_api_key
+
+# Database (RDB)
+DB_DEFAULT_PASSWORD=your_db_password
+
+# Database (Vector DB - pgvector)
+DB_VEC_PASSWORD=your_vecdb_password
+
+# Logging
+LOG_LEVEL=INFO
+</code></pre>
